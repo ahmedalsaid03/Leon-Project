@@ -29,6 +29,11 @@ document.body.addEventListener("click",function(e){
 })
 
 
-const header = document.querySelector(".header")
-const headerHeight = header.clientHeight;
-console.log(headerHeight)
+let dateNow = new Date();
+let footer = document.querySelector(".footer");
+
+
+let yearSpan = footer.querySelector("span");
+
+
+yearSpan.textContent = dateNow.getFullYear();

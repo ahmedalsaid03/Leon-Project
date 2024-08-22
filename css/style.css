@@ -490,7 +490,7 @@ flex: 1;
     text-align: center;
     font-size: 18px;
   }
-  .footer span {
+  .footer .leon {
     font-weight: bold;
     color: var(--main-color);
   }
